@@ -1,0 +1,16 @@
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  	position: absolute;
+  	top: 70%;
+  	left: 45%;
+}
+
+button{
+	width: 100px;
+	height: 40px;
+}
