@@ -1,16 +1,23 @@
 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .container{
   	position: absolute;
   	top: 70%;
-  	left: 45%;
+  	left: 40%;
 }
 
 button{
 	width: 100px;
 	height: 40px;
+	display: inline;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#button1, #button3{
+	visibility: hidden;
 }
