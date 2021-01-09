@@ -1,3 +1,5 @@
+
+// definiëren van de levels
 const acties = [
 {id:1, image: "img/3T-Splitsing.png", name: "T Splitsing.png", optie1: "Links", optie2: "Springen", optie3: "Rechts"},
 {id:2, image: "img/4Links.jpg", name: "Links", optie1: 'Links', optie2: 'Springen', optie3: 'Rechts'},
@@ -11,12 +13,9 @@ const acties = [
 {id:10, image: "img/win.jpg", name: "Gewonnen", optie1: 'opneiuw speelen?'},
 ];
 
-function gameOpties() {
-}
+// hieronder begint het spel en worden alle levels gemaakt
 
-function gameUitleg() {
-}
-
+//starten van game
 function gameStart() {
 	document.getElementById('button1').style.visibility = "visible";
 	document.getElementById('button3').style.visibility = "visible";
